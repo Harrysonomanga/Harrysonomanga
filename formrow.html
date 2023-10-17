@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title>Form Row</title>
+</head>
+<body>
+<div>
+ <h1>Form Row</h1>
+    <form class="m-4 mt-1">
+
+
+<div class="row">
+<div class="form-group col-md-6">
+        <label for="fname" class="form-label"> First Name</label>
+        <input type="text" id="fname" class="form-control" placeholder="First Name" required="required">
+    </div>
+<div class="form-group col-md-6">
+        <label for="lname" class="form-label"> Last Name</label>
+        <input type="text" id="lname" class="form-control" placeholder="Last Name" required="required">
+</div>
+    </div>
+        <label for="address" class="form-label"> Address</label>
+        <input type="text" id="address" class="form-control" placeholder="Address">
+<div class="row">
+    <div class="form-group col-5">
+        <label for="city" class="form-label"> City</label>
+        <input type="text" id="city" class="form-control" placeholder="City" required="required">
+        </div>
+    <div class="form-group col-4">
+        <label for="state" class="form-label">State</label>
+        <select name="form-select" id="state" class="form-control" required="required">
+            <option value="selected">Select State</option>
+            <option value="selected">Nairobi</option>
+            <option value="selected">Kisumu</option>
+            <option value="selected">Nakuru</option>
+            <option value="selected">Mombasa</option>
+            <option value="selected">Kisii</option>
+            <option value="selected">Uasin Gishu</option>
+            <option value="selected">Turkana</option>
+            <option value="selected">Trans Nzoia</option>
+            <option value="selected">Nyamira</option>
+            <option value="selected">Naivasha</option>
+            <option value="selected">Taita Taveta</option>
+            <option value="selected">Lamu</option>
+            <option value="selected">Makueni</option>
+            <option value="selected">Kirinyaga</option>
+            <option value="selected">Kiambu</option>
+            <option value="selected">Bomet</option>
+        </select>
+        </div>
+<div class="form-group col-3">
+        <label for="pincode" class="form-label">Pin Code</label>
+        <input type="text" id="pincode" class="form-control" placeholder="Pin Code">
+    </div>
+    </div>
+
+        <input type="checkbox" id="checkbox" class="mt-3">
+        <label for="checkbox">I Agree To Terms and Conditions</label> <br><br>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+
+    </form>
+</div>
+
+
+</body>
+</html>
